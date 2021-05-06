@@ -6,22 +6,15 @@
 
 
           • 기간: 2021/04/01 ~ 2021/04/27
-
-
           • 소속: 팀프로젝트
-
-
           • 역할: 산책 신청 게시판(주인&산책러), 자유게시판 
-
-
-          • 개발환경: 
-
-          O/S       : Mac / Windows10
-          Server    : Tomcat 8.5
-          DBMS      : Oracle 11g
-          Languages : Java, JSP, JavaScript, SQL, HTML
-          Tool      : Eclipse, STS, Git
-          Framework : Spring, JQuery, Ajax, BootStrap
+          • 개발환경:  
+                    O/S       : Mac / Windows10
+                    Server    : Tomcat 8.5
+                    DBMS      : Oracle 11g
+                    Languages : Java, JSP, JavaScript, SQL, HTML
+                    Tool      : Eclipse, STS, Git
+                    Framework : Spring, JQuery, Ajax, BootStrap
          
           
 
