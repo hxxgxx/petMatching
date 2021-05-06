@@ -20,7 +20,7 @@
 			if(selectedValue != '')
 				$("#viewcount").val(selectedValue);
 		
-		$("button").click(function(){
+		$("#search_button").click(function(){
 			var word=$(".input-group input").val();
 			if(word==''){
 				alert("검색어를 입력하세요.");
@@ -136,39 +136,39 @@
 		<ul class = "pagination justify-content-center">
 			<c:if test = "${page <= 1}">
 				<li class = "page-item">
-					<a class = "page-link gray" style="border: none">이전&nbsp;</a>
+					<a class = "page-link gray" style="border: none; color:#dc3545;">이전&nbsp;</a>
 				</li>
 			</c:if>
 			<c:if test = "${page > 1 }">
 				<li class = "page-item">
 					<a href = "BoardList.bo?page=${page-1}"
-					   class = "page-link" style="border: none">이전&nbsp;</a>
+					   class = "page-link" style="border: none; color:#dc3545;">이전&nbsp;</a>
 				</li>
 			</c:if> 
 			
 			<c:forEach var = "a" begin = "${startpage}" end="${endpage}">
 				<c:if test = "${a == page }">
 					<li class = "page-item">
-						<a class = "page-link gray" style="border: none">${a}</a>
+						<a class = "page-link gray" style="border: none; color:#dc3545;">${a}</a>
 					</li>
 				</c:if>
 				<c:if test = "${a != page }">
 					<li class = "page-item">
 						<a href = "BoardList.bo?page=${a}"
-						class="page-link" style="border: none">${a}</a>
+						class="page-link" style="border: none; color:#dc3545;">${a}</a>
 					</li>
 				</c:if>
 			</c:forEach>
 			
 			<c:if test = "${page >= maxpage }">
 				<li class = "page-item">
-					<a class = "page-link gray" style="border: none">&nbsp;다음</a>
+					<a class = "page-link gray" style="border: none; color:#dc3545;">&nbsp;다음</a>
 				</li>
 			</c:if>
 			<c:if test = "${page < maxpage }">
 				<li class = "page-item">
 					<a href = "BoardList.bo?page=${page+1}"
-					   class = "page-link" style="border: none">&nbsp;다음</a>
+					   class = "page-link" style="border: none; color:#dc3545;">&nbsp;다음</a>
 				</li>
 			</c:if>
 		</ul>

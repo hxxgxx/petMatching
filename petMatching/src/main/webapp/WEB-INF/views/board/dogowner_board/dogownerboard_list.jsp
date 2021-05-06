@@ -76,7 +76,7 @@ body > div.container > div.container > div > form > div{height:50px}
 <%-- 게시글이 있는 경우 --%>
 <c:if test = "${listcount > 0 }">
 <!-- 게시판 타이틀 -->
-<p class="text-danger">
+<p class="text-danger" style="margin-top:1rem;">
 	<font size = 4>산책 신청 게시판 (주인)&nbsp;&nbsp;&nbsp;</font>
 	<em id="listcount" class="text-danger"> ${listcount}개의 게시물</em>
 	</p>
@@ -122,7 +122,7 @@ body > div.container > div.container > div > form > div{height:50px}
 	<div class="responsive">
 	  <div class="gallery">
 	    <a href="detail?num=${b.BOARD_NUM}">
-	      <img src="${pageContext.request.contextPath}/resources/doboard_upload${b.DOG_PHOTO}" alt="dog" id="dogphoto">
+	      <img src="${pageContext.request.contextPath}/resources/doboard_upload${b.DOG_PHOTO}" alt="dog" id="dogphoto" style="width:263px; height:263px;">
 	    </a>
 	    <span id="desc">${b.BOARD_SUBJECT}</span>
 	    <span id="count">

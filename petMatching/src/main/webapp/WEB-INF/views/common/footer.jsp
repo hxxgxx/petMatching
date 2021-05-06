@@ -11,7 +11,7 @@
 </head>
 <style>
 	.sendmail{float:right}
-	.footer{color:#dc3545}
+	.footer{color:#dc3545;margin-bottom:2em;}
 </style>
 <div class="container">
 <hr class="text-danger">

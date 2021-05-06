@@ -22,11 +22,11 @@
 			$("#form_logout").submit();
 		})
 		
-		$(".btn1").click(function(){
+		$("#login").click(function(){
 			location.href = "${pageContext.request.contextPath}/member/login";
 		})
 		
-		$(".btn2").click(function() {
+		$("#join").click(function() {
 			location.href = "${pageContext.request.contextPath}/member/join";
 		})
 	})
@@ -78,7 +78,7 @@
 #message_box{color:#dc3545}
 #loginid{padding-top:0.7em;}
 body > div:nth-child(1) > header > nav{float:right;}
-body > div > div:nth-child(12) > header{margin-bottom:0}
+body > div > div:nth-child(12) > header{margin-bottom:0;}
 #dog_main{margin-top:2em;} 
 body > div > div > div:nth-child(12) > header > a{padding-left:0}
 </style>
@@ -88,14 +88,13 @@ body > div > div > div:nth-child(12) > header > a{padding-left:0}
       <img src="${pageContext.request.contextPath}/resources/image/mainPage_icon.png" width="180" height="180" id="dog_main">
     </a>
    
-   <sec:authorize access="isAnonymous()">
-    <div class="col-md-3 text-end">
-      <span class="btn1"><button type="button" class="btn btn-outline-danger me-2">Login</button></span>
-      <span class="btn2"><button type="button" class="btn btn-danger">Sign-up</button></span>
-    </div>
-    </sec:authorize>
     
     <nav class="navbar navbar-expand-sm right-block navbar-dark">
+    
+   <sec:authorize access="isAnonymous()">
+	      <span><i class="fa fa-user fa-2x" aria-hidden="true" id="login" style="color:#dc3545"></i></span>&nbsp;&nbsp;&nbsp;
+	      <span><i class="fa fa-sign-in fa-2x" aria-hidden="true" id="join" style="color:#dc3545"></i></span>
+    </sec:authorize>
 	
 	<ul class="navbar-nav">
 		<sec:authorize access="isAuthenticated()">
@@ -158,7 +157,7 @@ body > div > div > div:nth-child(12) > header > a{padding-left:0}
     
   </header>
 	<!--  메뉴 네비게이션 바 -->
-	<div id="navbar">
+	<div class="nav-scroller py-1 mb-2" >
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
 	  <li>
        <div class="dropdown">

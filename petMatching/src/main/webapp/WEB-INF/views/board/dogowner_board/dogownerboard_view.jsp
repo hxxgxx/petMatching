@@ -262,7 +262,7 @@ body > div.container > div.container{margin-bottom: 5em;}
 #dog_photo > div.row{width:500px; margin-right:-15px; margin-left:0px}
 #detail_info_table > tbody > tr:nth-child(5){border-top: solid 1px #dc3545}
 #dog_photo > a.prev{color: #dc3545;}
-#dog_photo > a.next{color: #dc3545; right:-0.3em;}
+#dog_photo > a.next{color: #dc3545; right:-1em;}
 
 body > div > div:nth-child(6){color:#dc3545}
 .text-danger{border-color:#dc3545;} 
@@ -303,6 +303,7 @@ body > div > div.container > div.container > div > div{margin-top:3em; margin-bo
 				<div class="col-6">
 					<%-- <img class="card-img-top" src="${pageContext.request.contextPath}/resources/doboard_upload${boarddata.DOG_PHOTO}"  width="500px" > --%>
 					<div class="container" id="dog_photo">
+					
 						<div class="mySlides">
 							<img
 								src="${pageContext.request.contextPath}/resources/doboard_upload${boarddata.DOG_PHOTO}"

@@ -315,7 +315,7 @@ table {
 						50자 까지 가능합니다.</button>
 					<button id="write" class="btn btn-info float-right"
 						style="background-color: #dc3545; border-color: #dc3545">등록</button>
-					<textarea rows=3 class="form-control" id="content" maxLength="50"></textarea>
+					<textarea rows=3 class="form-control" id="content" maxLength="50" style="resize:none"></textarea>
 					<table class="table table_striped">
 						<thead>
 							<tr>
@@ -327,8 +327,8 @@ table {
 						<tbody>
 
 						</tbody>
-					</table>
 					<div id="message"></div>
+					</table><br><br><br>
 				</div>
 			</div>
 		</div>

@@ -24,8 +24,8 @@
 			<p class="jb-light">우리 주인이 달라졌어요</p>
 		</div> -->
 		<img src="${pageContext.request.contextPath}/resources/image/dog_wallpaper3.jpeg" alt="dog" width="100%">
-	<jsp:include page="/WEB-INF/views/common/footer.jsp" />
 	</div>
+	<jsp:include page="/WEB-INF/views/common/footer.jsp" />
 </div>
 </body>
 <script>
