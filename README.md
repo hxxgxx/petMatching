@@ -26,3 +26,5 @@
           Framework : Spring, JQuery, Ajax, BootStrap
          
           
+
+<img width="80%" src="https://user-images.githubusercontent.com/83706188/117285855-702f9180-aea3-11eb-980a-ee7b9290b596.mov"/>
