@@ -27,10 +27,12 @@
          
           
 
-<img width="100%" src="https://user-images.githubusercontent.com/83706188/117293412-4d55ab00-aeac-11eb-87bd-7603a8f66b36.gif"/>
+<img width="60%" src="https://user-images.githubusercontent.com/83706188/117293412-4d55ab00-aeac-11eb-87bd-7603a8f66b36.gif"/>
 
 
 
-<img width="100%" src="https://user-images.githubusercontent.com/83706188/117290558-e97db300-aea8-11eb-98f1-c9f4e4554470.gif"/>
+<img width="60%" src="https://user-images.githubusercontent.com/83706188/117290558-e97db300-aea8-11eb-98f1-c9f4e4554470.gif"/>
 
 
+
+<img width="60%" src="https://user-images.githubusercontent.com/83706188/117290602-f69aa200-aea8-11eb-9aaf-c5d5ab6f603a.gif"/>
