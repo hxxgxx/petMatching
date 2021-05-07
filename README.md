@@ -19,18 +19,18 @@
           
 <br/>
 
-###  ✓ 메인페이지 > 게시판 이동<br>
-- - -
+### ✓ 메인페이지 > 게시판 이동
+
    <img width="100%" src="https://user-images.githubusercontent.com/83706188/117293412-4d55ab00-aeac-11eb-87bd-7603a8f66b36.gif"/>
 
 <br/>
 
 ###  ✓ 산책 신청 게시판 - 게시글 
-- - -
+
    <img width="100%" src="https://user-images.githubusercontent.com/83706188/117456413-1d2d0b80-af83-11eb-8598-73dd5bb8b8e4.gif"/>
 
 <br/>
 
 ###  ✓ 자유게시판
-- - -
+
   <img width="100%" src="https://user-images.githubusercontent.com/83706188/117290602-f69aa200-aea8-11eb-9aaf-c5d5ab6f603a.gif"/>
