@@ -36,4 +36,8 @@
 
 <br />
 
-### • 문제해결 아카이브
+### ✓ 문제해결 아카이브
+* 다중파일 업로드를 어떻게 구현할까?
+  * pom.xml에 파일 업로드를 위한 dependency를 추가하고, servlet-context.xml에 파일 업로드 bean 설정을 한다.<br>JSP 소스의 form에 enctype="multipart/form-data" 속성을 추가하고 List<MultipartFile>로 다중 파일을 가져올 수 있었다.
+* 게시판을 어떻게 구분할까?
+  * 게시판 성격에 따라 게시물 페이지에서 이미지 출력, 게시물 답변달기 등 각 게시판의 기능을 달리하였다.
