@@ -41,7 +41,7 @@
   * pom.xml에 파일 업로드를 위한 dependency를 추가하고, servlet-context.xml에 파일 업로드 bean 설정을 한다.<br>JSP 소스의 form에 enctype="multipart/form-data" 속성을 추가하고 List<'MultipartFile'>로 다중 파일을 가져올 수 있었다.
 
 * 각 게시판에서 사용하는 공통 기능(댓글)에 필요한 반복되는 코드를 간략하게 할 수 있을까?
-  *  
+  * comments.xml 에서 if문을 사용하여 각 게시판의 댓글 테이블에 연결하여 공통 기능을 하나의 xml에 구현하였다.
 
 
 * 게시판을 어떻게 구분할까?
